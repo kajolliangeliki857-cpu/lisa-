@@ -1,0 +1,29 @@
+project:
+  type: website
+
+website:
+  title: "lisa的个人网站"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - about.qmd
+    right: 
+      - icon: github
+        href: https://github.com/kajolliangeliki857-CPU
+      - icon: twitter
+        href: https://twitter.com/kajolliangeliki857-CPU
+      - icon: envelope
+        href: mailto:15638993916@163.com
+
+
+format:
+  html:
+    theme:
+      - flatly
+      - brand
+    css: styles.css
+    toc: true
+
+
+
